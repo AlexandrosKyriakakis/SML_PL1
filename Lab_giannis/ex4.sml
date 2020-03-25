@@ -4,6 +4,6 @@ fun is_perfect n =
 		if n mod m = 0
 		then m + add_factors (m-1)
 		else add_factors (m-1)
-		in
-			(n < 2) orelse (add_factors (n div 2) = n)
-		end
+	in
+		(n < 2) orelse (add_factors (n div 2) = n)
+	end
