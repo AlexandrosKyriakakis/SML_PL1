@@ -4,5 +4,5 @@ git commit -m "$1"
 git push -u origin $2
 git rev-parse --abbrev-ref --symbolic-full-name @{u}
 read str
-subStr=${str:7:}
+subStr=${str:7:8}
 echo $subStr
